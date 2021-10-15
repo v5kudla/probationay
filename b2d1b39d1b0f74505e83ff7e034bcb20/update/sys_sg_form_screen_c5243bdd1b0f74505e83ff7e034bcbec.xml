@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="INSERT_OR_UPDATE">
+        <application_roles/>
+        <available_offline>true</available_offline>
+        <data_item/>
+        <description>Probationary Employment Management</description>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hidden>false</hidden>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Address-Book">b42477dd1b0f74505e83ff7e034bcb86</icon>
+        <item_view/>
+        <name>Probationary Employment Management Form Screen</name>
+        <order/>
+        <override_context_with_data_item>false</override_context_with_data_item>
+        <parent/>
+        <parent_table/>
+        <roles_override/>
+        <segments_height>medium</segments_height>
+        <segments_min_width>medium</segments_min_width>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>V849486</sys_created_by>
+        <sys_created_on>2021-10-06 17:39:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c5243bdd1b0f74505e83ff7e034bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Probationary Employment Management Form Screen</sys_name>
+        <sys_package display_value="Probationary Employee Management" source="x_unhi_probationar">b2d1b39d1b0f74505e83ff7e034bcb20</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Probationary Employee Management">b2d1b39d1b0f74505e83ff7e034bcb20</sys_scope>
+        <sys_update_name>sys_sg_form_screen_c5243bdd1b0f74505e83ff7e034bcbec</sys_update_name>
+        <sys_updated_by>V849486</sys_updated_by>
+        <sys_updated_on>2021-10-06 17:39:20</sys_updated_on>
+        <table>x_unhi_probationar_probationary_employment_management</table>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Probationary Employment Management Detail Screen View Config">f4243bdd1b0f74505e83ff7e034bcbc6</view_config>
+    </sys_sg_form_screen>
+</record_update>

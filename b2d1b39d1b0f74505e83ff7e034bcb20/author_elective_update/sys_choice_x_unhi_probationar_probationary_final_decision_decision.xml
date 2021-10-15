@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="decision" table="x_unhi_probationar_probationary_final_decision" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>decision</element>
+            <name>x_unhi_probationar_probationary_final_decision</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>V849486</sys_created_by>
+            <sys_created_on>2021-10-15 14:39:16</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4f31e1941b5b74905e83ff7e034bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>decision</sys_name>
+            <sys_package display_value="Probationary Employee Management" source="x_unhi_probationar">b2d1b39d1b0f74505e83ff7e034bcb20</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Probationary Employee Management">b2d1b39d1b0f74505e83ff7e034bcb20</sys_scope>
+            <sys_update_name>sys_choice_x_unhi_probationar_probationary_final_decision_decision</sys_update_name>
+            <sys_updated_by>V849486</sys_updated_by>
+            <sys_updated_on>2021-10-15 14:39:16</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>decision</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RETAIN</label>
+            <language>en</language>
+            <name>x_unhi_probationar_probationary_final_decision</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>V849486</sys_created_by>
+            <sys_created_on>2021-10-15 14:39:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c331e1941b5b74905e83ff7e034bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>V849486</sys_updated_by>
+            <sys_updated_on>2021-10-15 14:39:16</sys_updated_on>
+            <value>RETAIN</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>decision</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EXTEND PROBATION</label>
+            <language>en</language>
+            <name>x_unhi_probationar_probationary_final_decision</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>V849486</sys_created_by>
+            <sys_created_on>2021-10-15 14:39:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf31e1941b5b74905e83ff7e034bcbf7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>V849486</sys_updated_by>
+            <sys_updated_on>2021-10-15 14:39:16</sys_updated_on>
+            <value>EXTEND PROBATION</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>decision</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TERMINATE</label>
+            <language>en</language>
+            <name>x_unhi_probationar_probationary_final_decision</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>V849486</sys_created_by>
+            <sys_created_on>2021-10-15 14:39:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f31e1941b5b74905e83ff7e034bcbfa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>V849486</sys_updated_by>
+            <sys_updated_on>2021-10-15 14:39:16</sys_updated_on>
+            <value>TERMINATE</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

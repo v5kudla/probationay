@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Probationary Final Decision" max_length="40" name="x_unhi_probationar_probationary_final_decision" type="collection">
+        <element choice="1" label="Overall Decision Rating" max_length="40" name="decision" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="RETAIN" sequence="0" value="RETAIN"/>
+                <element inactive_on_update="false" label="EXTEND PROBATION" sequence="1" value="EXTEND PROBATION"/>
+                <element inactive_on_update="false" label="TERMINATE" sequence="2" value="TERMINATE"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Extended Probation Date" max_length="40" name="extended_probation_date" type="glide_date"/>
+        <element label="Employee Being Evaluated" max_length="32" name="probationary" reference="sys_user" type="reference"/>
+        <element label="Please provide any additional comments" max_length="1000" name="u_additional_comments" type="string"/>
+        <index name="index">
+            <element name="probationary"/>
+        </index>
+    </element>
+</database>

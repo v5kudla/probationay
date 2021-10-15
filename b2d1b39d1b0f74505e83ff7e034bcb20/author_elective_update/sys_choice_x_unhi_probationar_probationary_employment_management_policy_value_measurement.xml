@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="policy_value_measurement" table="x_unhi_probationar_probationary_employment_management" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>policy_value_measurement</element>
+            <name>x_unhi_probationar_probationary_employment_management</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>V849486</sys_created_by>
+            <sys_created_on>2021-10-07 19:38:40</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>3a09193987033c100065fcc6cebb3510</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>policy_value_measurement</sys_name>
+            <sys_package display_value="Probationary Employee Management" source="x_unhi_probationar">b2d1b39d1b0f74505e83ff7e034bcb20</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Probationary Employee Management">b2d1b39d1b0f74505e83ff7e034bcb20</sys_scope>
+            <sys_update_name>sys_choice_x_unhi_probationar_probationary_employment_management_policy_value_measurement</sys_update_name>
+            <sys_updated_by>V849486</sys_updated_by>
+            <sys_updated_on>2021-10-07 19:38:40</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>policy_value_measurement</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unacceptable</label>
+            <language>en</language>
+            <name>x_unhi_probationar_probationary_employment_management</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>V849486</sys_created_by>
+            <sys_created_on>2021-10-07 19:38:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6095db187033c100065fcc6cebb35d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>V849486</sys_updated_by>
+            <sys_updated_on>2021-10-07 19:38:40</sys_updated_on>
+            <value>Unacceptable</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>policy_value_measurement</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Needs Improvement</label>
+            <language>en</language>
+            <name>x_unhi_probationar_probationary_employment_management</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>V849486</sys_created_by>
+            <sys_created_on>2021-10-07 19:38:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3209193987033c100065fcc6cebb3513</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>V849486</sys_updated_by>
+            <sys_updated_on>2021-10-07 19:38:40</sys_updated_on>
+            <value>Needs Improvement</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>policy_value_measurement</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Meets Expectations</label>
+            <language>en</language>
+            <name>x_unhi_probationar_probationary_employment_management</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>V849486</sys_created_by>
+            <sys_created_on>2021-10-07 19:38:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be09193987033c100065fcc6cebb3515</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>V849486</sys_updated_by>
+            <sys_updated_on>2021-10-07 19:38:40</sys_updated_on>
+            <value>Meets Expectations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>policy_value_measurement</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Exceeds Expectations</label>
+            <language>en</language>
+            <name>x_unhi_probationar_probationary_employment_management</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>V849486</sys_created_by>
+            <sys_created_on>2021-10-07 19:38:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e09193987033c100065fcc6cebb3518</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>V849486</sys_updated_by>
+            <sys_updated_on>2021-10-07 19:38:40</sys_updated_on>
+            <value>Exceeds Expectations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>policy_value_measurement</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outstanding</label>
+            <language>en</language>
+            <name>x_unhi_probationar_probationary_employment_management</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>V849486</sys_created_by>
+            <sys_created_on>2021-10-07 19:38:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba09193987033c100065fcc6cebb351b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>V849486</sys_updated_by>
+            <sys_updated_on>2021-10-07 19:38:40</sys_updated_on>
+            <value>Outstanding</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

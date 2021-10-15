@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Delete (Probationary Employment Management)</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>V849486</sys_created_by>
+        <sys_created_on>2021-10-06 17:39:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>89243bdd1b0f74505e83ff7e034bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete (Probationary Employment Management)</sys_name>
+        <sys_package display_value="Probationary Employee Management" source="x_unhi_probationar">b2d1b39d1b0f74505e83ff7e034bcb20</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Probationary Employee Management">b2d1b39d1b0f74505e83ff7e034bcb20</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_89243bdd1b0f74505e83ff7e034bcbf8</sys_update_name>
+        <sys_updated_by>V849486</sys_updated_by>
+        <sys_updated_on>2021-10-06 17:39:21</sys_updated_on>
+        <table>x_unhi_probationar_probationary_employment_management</table>
+        <template/>
+        <type>delete</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+</record_update>

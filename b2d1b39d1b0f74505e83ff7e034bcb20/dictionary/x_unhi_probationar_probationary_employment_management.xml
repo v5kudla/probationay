@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Probationary Employment Management" max_length="40" name="x_unhi_probationar_probationary_employment_management" sizeclass="10" type="collection">
+        <element active="false" label="Customer Service" max_length="40" name="customer_service" type="boolean"/>
+        <element choice="1" label="Customer Service Rating" max_length="100" name="customer_service_value_measurement" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unacceptable" sequence="0" value="Unacceptable"/>
+                <element inactive_on_update="false" label="Needs Improvement" sequence="1" value="Needs Improvement"/>
+                <element inactive_on_update="false" label="Meets Expectations" sequence="2" value="Meets Expectations"/>
+                <element inactive_on_update="false" label="Exceeds Expectations" sequence="3" value="Exceeds Expectations"/>
+                <element inactive_on_update="false" label="Outstanding" sequence="4" value="Outstanding"/>
+            </choice>
+        </element>
+        <element choice="1" label="Non-Customer Interactions Rating" max_length="100" name="customer_value_measurement" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unacceptable" sequence="0" value="Unacceptable"/>
+                <element inactive_on_update="false" label="Needs Improvement" sequence="1" value="Needs Improvement"/>
+                <element inactive_on_update="false" label="Meets Expectations" sequence="2" value="Meets Expectations"/>
+                <element inactive_on_update="false" label="Exceeds Expectations" sequence="3" value="Exceeds Expectations"/>
+                <element inactive_on_update="false" label="Outstanding" sequence="4" value="Outstanding"/>
+            </choice>
+        </element>
+        <element active="false" choice="1" label="Decision" max_length="100" name="decision" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Retain" sequence="0" value="Retain"/>
+                <element inactive_on_update="false" label="Extend Probation" sequence="1" value="Extend Probation"/>
+                <element inactive_on_update="false" label="Terminate" sequence="2" value="Terminate"/>
+            </choice>
+        </element>
+        <element label="Detailed Description" max_length="1000" name="detailed_description" type="string"/>
+        <element choice="1" label="Time Management Rating" max_length="100" name="efficiency_value_measurement" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unacceptable" sequence="0" value="Unacceptable"/>
+                <element inactive_on_update="false" label="Needs Improvement" sequence="1" value="Needs Improvement"/>
+                <element inactive_on_update="false" label="Meets Expectations" sequence="2" value="Meets Expectations"/>
+                <element inactive_on_update="false" label="Exceeds Expectations" sequence="3" value="Exceeds Expectations"/>
+                <element inactive_on_update="false" label="Outstanding" sequence="4" value="Outstanding"/>
+            </choice>
+        </element>
+        <element active="false" label="Extended probation date" max_length="40" name="extend_probation" type="glide_date"/>
+        <element active="false" choice="1" label="Making Decision&#10;" max_length="40" name="making_final_decison" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element active="false" label="Non-customer Interactions" max_length="40" name="non_customer_interactions" type="boolean"/>
+        <element active="false" label="Policies  Procedures" max_length="40" name="policies_procedures" type="boolean"/>
+        <element choice="1" label="Policies &amp; Procedures Rating" max_length="100" name="policy_value_measurement" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unacceptable" sequence="0" value="Unacceptable"/>
+                <element inactive_on_update="false" label="Needs Improvement" sequence="1" value="Needs Improvement"/>
+                <element inactive_on_update="false" label="Meets Expectations" sequence="2" value="Meets Expectations"/>
+                <element inactive_on_update="false" label="Exceeds Expectations" sequence="3" value="Exceeds Expectations"/>
+                <element inactive_on_update="false" label="Outstanding" sequence="4" value="Outstanding"/>
+            </choice>
+        </element>
+        <element label="Employee Being Evaluated" max_length="32" name="probationary" reference="sys_user" type="reference"/>
+        <element active="false" label="Safety" max_length="40" name="safety" type="boolean"/>
+        <element choice="1" label="Safety Rating" max_length="100" name="saftey_value_measurement" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unacceptable" sequence="0" value="Unacceptable"/>
+                <element inactive_on_update="false" label="Needs Improvement" sequence="1" value="Needs Improvement"/>
+                <element inactive_on_update="false" label="Meets Expectations" sequence="2" value="Meets Expectations"/>
+                <element inactive_on_update="false" label="Exceeds Expectations" sequence="3" value="Exceeds Expectations"/>
+                <element inactive_on_update="false" label="Outstanding" sequence="4" value="Outstanding"/>
+            </choice>
+        </element>
+        <element active="false" label="Technical Knowledge" max_length="40" name="technical_knowledge" type="boolean"/>
+        <element choice="1" label="Technical Knowledge Rating" max_length="100" name="technical_value_measurement" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unacceptable" sequence="0" value="Unacceptable"/>
+                <element inactive_on_update="false" label="Needs Improvement" sequence="1" value="Needs Improvement"/>
+                <element inactive_on_update="false" label="Meets Expectations" sequence="2" value="Meets Expectations"/>
+                <element inactive_on_update="false" label="Exceeds Expectations" sequence="3" value="Exceeds Expectations"/>
+                <element inactive_on_update="false" label="Outstanding" sequence="4" value="Outstanding"/>
+            </choice>
+        </element>
+        <element active="false" label="Time management/Efficiency" max_length="40" name="time_management_efficiency" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional comments(Min 15 Char)" max_length="1000" name="u_additional_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments on CUSTOMER SERVICE" max_length="1000" name="u_comments_csm" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments on NON-CUSTOMER INTERACTIONS" max_length="1000" name="u_comments_non_customer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments on POLICY &amp; PROCEDURE" max_length="1000" name="u_comments_policies" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments on  SAFETY" max_length="1000" name="u_comments_safety" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments on TECHNICAL KNOWLEDGE" max_length="1000" name="u_comments_technical" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments on TIME MANAGEMENT" max_length="1000" name="u_comments_time_management" type="string"/>
+        <index name="index">
+            <element name="probationary"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>true</inactive>
+        <misc>0</misc>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="Customer Service Rating">edd12c02878b30502e1641d8cebb35b9</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>V849486</sys_created_by>
+        <sys_created_on>2021-10-08 10:16:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>96d1ac02878b30502e1641d8cebb3555</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Meets Expectations</sys_name>
+        <sys_package display_value="Probationary Employee Management" source="x_unhi_probationar">b2d1b39d1b0f74505e83ff7e034bcb20</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Probationary Employee Management">b2d1b39d1b0f74505e83ff7e034bcb20</sys_scope>
+        <sys_update_name>question_choice_96d1ac02878b30502e1641d8cebb3555</sys_update_name>
+        <sys_updated_by>V849486</sys_updated_by>
+        <sys_updated_on>2021-10-15 09:50:00</sys_updated_on>
+        <text>Meets Expectations</text>
+        <value>Meets Expectations</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=96d1ac02878b30502e1641d8cebb3555"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>96d1ac02878b30502e1641d8cebb3555</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>V849486</sys_created_by>
+        <sys_created_on>2021-10-08 10:16:00</sys_created_on>
+        <sys_id>1ad1ac02878b30502e1641d8cebb3556</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>V849486</sys_updated_by>
+        <sys_updated_on>2021-10-08 10:16:00</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>96d1ac02878b30502e1641d8cebb3555</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>V849486</sys_created_by>
+        <sys_created_on>2021-10-08 10:16:00</sys_created_on>
+        <sys_id>ded1ac02878b30502e1641d8cebb3555</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>V849486</sys_updated_by>
+        <sys_updated_on>2021-10-08 10:16:00</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

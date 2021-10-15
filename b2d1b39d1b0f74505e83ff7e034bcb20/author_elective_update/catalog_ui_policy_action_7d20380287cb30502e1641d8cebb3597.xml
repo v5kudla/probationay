@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Probationary general performance tracking">91d1e0ce874b30502e1641d8cebb3526</catalog_item>
+        <catalog_variable>IO:61d12c02878b30502e1641d8cebb35fd</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>V849486</sys_created_by>
+        <sys_created_on>2021-10-08 11:19:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7d20380287cb30502e1641d8cebb3597</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>efficiency_value_measurement</sys_name>
+        <sys_package display_value="Probationary Employee Management" source="x_unhi_probationar">b2d1b39d1b0f74505e83ff7e034bcb20</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Probationary Employee Management">b2d1b39d1b0f74505e83ff7e034bcb20</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_7d20380287cb30502e1641d8cebb3597</sys_update_name>
+        <sys_updated_by>V849486</sys_updated_by>
+        <sys_updated_on>2021-10-08 11:19:53</sys_updated_on>
+        <table/>
+        <ui_policy display_value="hide Time management/Efficiency">7ad1ec02878b30502e1641d8cebb35b2</ui_policy>
+        <variable>efficiency_value_measurement</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Probationary Employee Management">b2d1b39d1b0f74505e83ff7e034bcb20</application>
+        <file_path/>
+        <instance_id>f4897907db2f32c4536ad5b0cf9619a0</instance_id>
+        <instance_name>uniteddevnext</instance_name>
+        <name>catalog_ui_policy_action_7d20380287cb30502e1641d8cebb3597</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Probationary general performance tracking">91d1e0ce874b30502e1641d8cebb3526</catalog_item><catalog_variable>IO:61d12c02878b30502e1641d8cebb35fd</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>V849486</sys_created_by><sys_created_on>2021-10-08 11:19:53</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>7d20380287cb30502e1641d8cebb3597</sys_id><sys_mod_count>0</sys_mod_count><sys_name>efficiency_value_measurement</sys_name><sys_package display_value="Probationary Employee Management" source="x_unhi_probationar">b2d1b39d1b0f74505e83ff7e034bcb20</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Probationary Employee Management">b2d1b39d1b0f74505e83ff7e034bcb20</sys_scope><sys_update_name>catalog_ui_policy_action_7d20380287cb30502e1641d8cebb3597</sys_update_name><sys_updated_by>V849486</sys_updated_by><sys_updated_on>2021-10-08 11:19:53</sys_updated_on><table/><ui_policy display_value="hide Time management/Efficiency">7ad1ec02878b30502e1641d8cebb35b2</ui_policy><variable>efficiency_value_measurement</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-886313125</payload_hash>
+        <record_name>efficiency_value_measurement</record_name>
+        <reverted_from/>
+        <source>bed1b39d1b0f74505e83ff7e034bcb22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>V849486</sys_created_by>
+        <sys_created_on>2021-10-08 11:19:53</sys_created_on>
+        <sys_id>c270b00287cb30502e1641d8cebb3542</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c5fa185260000001</sys_recorded_at>
+        <sys_updated_by>V849486</sys_updated_by>
+        <sys_updated_on>2021-10-08 11:19:53</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>ca70b00253cb30505b51ce48528ee041</update_guid>
+        <update_guid_history>ca70b00253cb30505b51ce48528ee041:-886313125</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2021-10-14 16:19:23">1a33358c8797bc502e1641d8cebb3542</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>V850299</sys_created_by>
+        <sys_created_on>2021-10-14 21:19:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>2e42e6357a9c46dd9bfc424d4297bd49</sys_id>
+        <sys_metadata>7d20380287cb30502e1641d8cebb3597</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>efficiency_value_measurement</sys_name>
+        <sys_package display_value="Probationary Employee Management" source="x_unhi_probationar">b2d1b39d1b0f74505e83ff7e034bcb20</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Probationary Employee Management">b2d1b39d1b0f74505e83ff7e034bcb20</sys_scope>
+        <sys_scope_delete display_value="">06ef1fca416f4688b04555b7afbddc99</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_7d20380287cb30502e1641d8cebb3597</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_7d20380287cb30502e1641d8cebb3597">c270b00287cb30502e1641d8cebb3542</sys_update_version>
+        <sys_updated_by>V850299</sys_updated_by>
+        <sys_updated_on>2021-10-14 21:19:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

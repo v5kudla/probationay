@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Probationary Period Performance Tracking - Ongoing Evaluation">91d1e0ce874b30502e1641d8cebb3526</catalog_item>
+        <catalog_variable>IO:1ad16c02878b30502e1641d8cebb35fa</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>V849486</sys_created_by>
+        <sys_created_on>2021-10-08 11:20:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8b80300287cb30502e1641d8cebb35c8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_comments_time_management</sys_name>
+        <sys_package display_value="Probationary Employee Management" source="x_unhi_probationar">b2d1b39d1b0f74505e83ff7e034bcb20</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Probationary Employee Management">b2d1b39d1b0f74505e83ff7e034bcb20</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_8b80300287cb30502e1641d8cebb35c8</sys_update_name>
+        <sys_updated_by>V849486</sys_updated_by>
+        <sys_updated_on>2021-10-15 09:27:35</sys_updated_on>
+        <table/>
+        <ui_policy display_value="hide Time management/Efficiency">7ad1ec02878b30502e1641d8cebb35b2</ui_policy>
+        <variable>u_comments_time_management</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

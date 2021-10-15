@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>probationary</name>
+        <scoped_name>x_unhi_probationar_probationary</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>V849486</sys_created_by>
+        <sys_created_on>2021-10-14 18:49:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5cc01540db5f3010f8ea2bfa4b9619e9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>probationary</sys_name>
+        <sys_package display_value="Probationary Employee Management" source="x_unhi_probationar">b2d1b39d1b0f74505e83ff7e034bcb20</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Probationary Employee Management">b2d1b39d1b0f74505e83ff7e034bcb20</sys_scope>
+        <sys_update_name>sys_ui_macro_5cc01540db5f3010f8ea2bfa4b9619e9</sys_update_name>
+        <sys_updated_by>V849486</sys_updated_by>
+        <sys_updated_on>2021-10-14 18:52:13</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	
+	<p><strong><span style="font-size: 10pt; color: #000080;">Please rate and comment on the employee's performance in the following 6 basic core competencies / categories. Supporting documentation can be attached at the bottom of the form.</span></strong></p>
+
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

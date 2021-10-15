@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="Probationary Employment Management Probationary Employment Management">f42477dd1b0f74505e83ff7e034bcb8d</data_item>
+        <interleaved_field/>
+        <name>Probationary Employment Management Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>V849486</sys_created_by>
+        <sys_created_on>2021-10-06 17:39:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0d243bdd1b0f74505e83ff7e034bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Probationary Employment Management Item Stream</sys_name>
+        <sys_package display_value="Probationary Employee Management" source="x_unhi_probationar">b2d1b39d1b0f74505e83ff7e034bcb20</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Probationary Employee Management">b2d1b39d1b0f74505e83ff7e034bcb20</sys_scope>
+        <sys_update_name>sys_sg_item_stream_0d243bdd1b0f74505e83ff7e034bcbf1</sys_update_name>
+        <sys_updated_by>V849486</sys_updated_by>
+        <sys_updated_on>2021-10-06 17:39:20</sys_updated_on>
+        <table/>
+    </sys_sg_item_stream>
+</record_update>
